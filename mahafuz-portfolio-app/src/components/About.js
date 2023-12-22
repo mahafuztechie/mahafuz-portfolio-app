@@ -16,7 +16,7 @@ function About() {
                 <div className="text-md bg-gray-100 lg:text-base shadow-xl flex flex-col lg:space-x-10  space-y-10 mt-3 mr-3 p-4 border lg:border-2 rounded-2xl">
                     {/* <p>I'M a Front end web developer based in Bangalore. I have gained knowledge & skills in React, Redux & Nextjs, along with a knack of building applications with utmost efficiency. Strong professional with a BCA willing to be an asset for an organization.</p> */}
                     <p>
-                    Dedicated and skilled Software Developer with nearly 2 Years of work experience in developing and deploying API and client - server based applications using DotNet technologies and having understanding and hands-on experience in react 
+                    Dedicated and skilled Software Developer with nearly 2 Years of work experience in developing and deploying API and client - server based applications using DotNet technologies and having understanding and handson experience in react 
                     </p>
                     <span className="font-semibold text-use-blue font-marvel text-2xl">Why me?</span>
                     <ul className="space-y-2 flex flex-col pl-2">
