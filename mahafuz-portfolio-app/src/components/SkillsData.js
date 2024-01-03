@@ -8,8 +8,8 @@ import { FaJava } from "react-icons/fa"
 function SkillsData() {
     const languages = [
         {
-            name: "DotNet-Core",
-            level: "65",
+            name: ".Net-Core",
+            level: "75",
             icon: <SiDotnet className="text-use-blue mt-1"/>
         },
         {
@@ -19,7 +19,7 @@ function SkillsData() {
         },
         {
             name: "Csharp",
-            level: "70",
+            level: "75",
             icon: <SiCsharp className="text-use-blue mt-1"/>
         },
         {
@@ -33,7 +33,7 @@ function SkillsData() {
             icon: <SiCss3 className="text-use-blue mt-1"/>
         },
         {
-            name: "javascript",
+            name: "Js",
             level: "60",
             icon: <SiJavascript className="text-use-blue mt-1"/>
         },

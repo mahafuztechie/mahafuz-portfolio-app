@@ -10,7 +10,7 @@ function Projects() {
             <h1 className="text-center text-use-blue font-bold text-lg lg:text-4xl uppercase ">Projects</h1>
             <div className='mt-2'>
                 <Marquee>
-                    <h2 className='text-use-red font-light text-sm lowecase'>NOTE : The following projects have been implemented solely for educational and knowledge purposes.</h2>
+                    <h2 className='text-use-red font-light text-sm mx-4'><span className='font-bold uppercase'>NOTE : </span>The following projects have been implemented solely for educational and knowledge purposes. </h2>
                 </Marquee>
             </div>
             <div className="lg:p-5 mt-3">
