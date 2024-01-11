@@ -34,12 +34,12 @@ function SkillsData() {
         },
         {
             name: "Js",
-            level: "60",
+            level: "65",
             icon: <SiJavascript className="text-use-blue mt-1"/>
         },
         {
             name: "React",
-            level: "59",
+            level: "70",
             icon: <SiReact className="text-use-blue mt-1"/>
         },
         {
