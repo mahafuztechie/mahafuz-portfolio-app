@@ -5,6 +5,15 @@ function ProjectData({sliceNum}) {
     
     const projectData = [
         {
+            name:"NetflixGPT",
+            image: "/images/netflix.webp",
+            title: "Technologies used: ReactJS, Redux, Firebase, & Tailwind-css",
+            desc: "NetFlixGPT website with a beautiful design with integration of open ai for movie search from tmdb, firebase used for authentication, redux for state management, etc",
+            github: "https://github.com/mahafuztechie/mahafuz-portfolio-app",
+            live: "https://netflix-gpt-react-ruby.vercel.app/",
+            newproj: "trend"
+        },
+        {
             name:"Airbnb-clone",
             image: "/images/airbnb.webp",
             title: "Technologies used: ReactJS, NextJS, & Tailwind-css",

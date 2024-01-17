@@ -18,7 +18,8 @@ function Project({image, github, live, name, title, desc, newproj}) {
                     <a href={github} rel="noreferrer" target="_blank"><i className="text-xl text-use-blue group-hover:text-amber-600  w-7 h-7 transition duration-200 ease-in-out transform hover:scale-125 text-center rounded-full fab fa-github"></i></a>
                     {live && <a href={live} rel="noreferrer" target="_blank" className="group-hover:no-underline uppercase text-center text-use-blue rounded-lg px-1 tracking-wider  group-hover:bg-red-600 group-hover:text-white">live</a>}
             </div>
-            {newproj && <span className="absolute -top-5 right-1 text-sm text-gray-700 px-2 rounded-xl bg-use-yellow bg-opacity-90">{newproj}</span>}
+            {newproj==="trend" ? <span className="absolute -top-5 right-1 text-sm text-gray-200 px-2 rounded-xl bg-black bg-opacity-90">{newproj}</span>
+            : <span className="absolute -top-5 right-1 text-sm text-gray-700 px-2 rounded-xl bg-use-yellow bg-opacity-90">{newproj}</span>}
         </div>
     )
 }
